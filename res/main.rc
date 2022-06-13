@@ -1,0 +1,14 @@
+
+//Standard includes
+#include <windows.h>
+#include <afxres.h>
+
+//Custom includes
+#include "..\include\resources.h"
+#include "..\include\controls.h"
+
+//manifest file
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "..\\Manifest\\ToolBarExample1.exe.manifest"
+
+//app icon
+IDI_APPICON ICON "..\\assets\\images\\mainicon.ico" //Window icon
